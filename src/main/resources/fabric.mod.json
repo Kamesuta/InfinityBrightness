@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity-brightness",
+  "version": "${version}",
+  "name": "InfinityBrightness",
+  "description": "",
+  "authors": [
+    "Kamesuta"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kamesuta.infinitybrightness.client.InfinityBrightnessClient"
+    ]
+  },
+  "mixins": [
+    "infinity-brightness.mixins.json"
+  ],
+  "accessWidener" : "infinity-brightness.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
